@@ -15,7 +15,9 @@ export default {
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     'element-ui/lib/theme-chalk/index.css',
-    'element-ui/lib/theme-chalk/reset.css'
+    'element-ui/lib/theme-chalk/reset.css',
+    '~assets/css/main.css'
+
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -37,5 +39,6 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     transpile: [/^element-ui/],
+    cache:true
   }
 }
