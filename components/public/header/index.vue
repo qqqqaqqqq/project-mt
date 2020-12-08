@@ -9,7 +9,9 @@
         </el-row>
         <el-row>
             <el-col>
-
+                <search-bar>
+                    
+                </search-bar>
             </el-col>
         </el-row>        
     </div>

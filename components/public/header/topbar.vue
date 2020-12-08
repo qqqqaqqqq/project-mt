@@ -5,7 +5,7 @@
   <el-col :span="4"><div >
       <geo></geo>
       </div></el-col>
-  <el-col :span="4"><div>
+  <el-col :span="5"><div>
       <User></User>
       </div></el-col>
   <el-col :span="14"><div class="grid-content bg-purple">
